@@ -14,7 +14,7 @@ def get_contestant_name(data, occupation)
     array.each do |contestant|
       contestant.each do |x, job|
         if job == occupation
-          return contestant["name"]  
+          return contestant["name"]
         end
       end
     end
