@@ -1,4 +1,3 @@
-require pry
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
   contestant.each do |info, status|
@@ -41,7 +40,7 @@ def get_occupation(data, hometown)
         return data_hash["occupation"]
       end
     end
-  end      
+  end
 end
 
 def get_average_age_for_season(data, season)
