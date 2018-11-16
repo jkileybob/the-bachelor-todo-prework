@@ -1,12 +1,12 @@
 def get_first_name_of_season_winner(data, season)
   data[season].each do |contestant|
-  contestant.each do |k, v|
-    if v == "Winner"
+  contestant.each do |info, status|
+    if status == "Winner"
       full_name = contestant["name"]
-      return full_name.split(" ").first 
+      return full_name.split(" ").first
     end
   end
-end 
+end
 end
 end
 
