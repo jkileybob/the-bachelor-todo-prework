@@ -40,7 +40,7 @@ def get_occupation(data, hometown)
       if data_hash["hometown"] == hometown
         return data_hash["occupation"]
       end
-    end    
+    end
   end      
 end
 
